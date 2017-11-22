@@ -9,6 +9,7 @@ describe('drivers', function() {
     })
 
     it('can create a Driver with a name', function() {
+      // debugger;
       let driver = new Driver("Alfie")
       expect(driver.name).to.equal("Alfie")
     })
